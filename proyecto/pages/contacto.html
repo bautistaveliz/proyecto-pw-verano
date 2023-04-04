@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos-contacto.css">
+    <title>CONTACTO</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img class="logo" src="../images/logo.jpg" alt="logo banner"></a>
+    </header>
+    <nav>
+        <ul class="listanav">
+            <a href="../index.html"><li>home</li></a>
+            <a href="./about.html"><li>nosotros</li></a>
+            <a href="./contacto.html"><li>contacto</li></a>
+            <a href="./productos.html"><li>productos</li></a>
+            <a href="./api.html"><li>API</li></a>
+        </ul>
+    </nav>
+    <body>
+        <div class="container">
+        <h1>Contacto</h1>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="subject">Asunto:</label>
+            <input type="text" id="subject" name="subject" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        </div>
+        <script src="../js/contacto.js"></script>
+    </body>
+    <footer>
+        <div class="footerflex">
+            <p class="pfooter">&#x2706; <a href="tel:+5491112345678">+ 54 9 11 1234-5678</a></p>
+            <p class="pfooter">&#x2709; <a href="mailto:empresa@gmail.com">empresa@gmail.com</a></p>
+            <p class="pfooter">&#x1f30e;&#xfe0e; Av.Figueroa Alcorta 7597, CABA </p>
+        </div>
+    </footer>
+</body>
+</html>

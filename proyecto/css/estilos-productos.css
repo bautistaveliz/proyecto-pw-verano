@@ -1,0 +1,30 @@
+img{
+    width: 150px;
+    height: 120px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.infoflex{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}

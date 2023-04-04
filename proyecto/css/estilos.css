@@ -1,0 +1,94 @@
+header{
+background-color: white;
+margin: 0;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+nav{
+    background-color: red;
+    margin: 0;
+}
+
+.listanav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    margin-right: 10px;
+}
+
+main{
+    margin-top: 10px;
+}
+
+.flexmain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#carrusel {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+#carrusel img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+#carrusel img.active {
+    opacity: 1;
+}
+
+.texto-bienvenida{
+    text-align: center;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
+footer{
+    background-color: grey;
+    height: 50px;
+}
+
+.footerflex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pfooter{
+    color: white;
+}
